@@ -301,7 +301,5 @@ dmypy.json
 cython_debug/
 
 # Repo-specific
-cartpoleRAC/
-turfRAC/
-cartpoleRAE/
-turfRAE/
+results/
+.vscode/
