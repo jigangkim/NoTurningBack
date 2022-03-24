@@ -31,7 +31,7 @@ parser.add_argument('--ent_coef', type=float, default=0.05,
                     help='PPO entropy coef')
 parser.add_argument('--debug', action='store_true',
                     default=False, help="Enable the detialed training output.")
-parser.add_argument("--log_directory", default="CartpoleRAE",
+parser.add_argument("--log_directory", default="cartpoleRAE",
                     help="The log directory")
 parser.add_argument('--save_models', action='store_true', default=False,
                     help='saving the models at the end of the training.')

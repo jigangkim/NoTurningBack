@@ -1,0 +1,4 @@
+CUDA_VISIBLE_DEVICES=0 python rac_cartpole.py --debug --verbose 1 --save_models --seed <> --log_directory cartpoleRAC/seed<>
+CUDA_VISIBLE_DEVICES=1 python rac_turf.py --epoch_classifier 100 --steps_action_model 100000 --n_traj_classifier 50000 --debug --verbose 1 --save_models --seed <> --log_directory turfRAC/seed<>
+CUDA_VISIBLE_DEVICES=2 python rae_cartpole.py --debug --save_models --seed <> --log_directory cartpoleRAE/seed<>
+CUDA_VISIBLE_DEVICES=3 python rae_turf.py --threshold 0.8 --train_freq 500 --d_max 50000 --debug --save_models --seed <> --log_directory turfRAE/seed<>

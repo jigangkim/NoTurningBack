@@ -299,3 +299,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Repo-specific
+cartpoleRAC/
+turfRAC/
+cartpoleRAE/
+turfRAE/
